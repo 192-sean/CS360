@@ -1,0 +1,27 @@
+body {
+	background: #000000 url("chess.jpg")
+	  no-repeat;
+	color: #FFE4C4;
+	background-size: 100%;
+}
+
+.left, h1, p {
+    margin-left: 20px;
+}
+
+.left {
+    position: absolute;
+    top: 80%;
+    height:90px;
+    text-align:left;
+}
+.left h2 { 
+  font-size:30px; 
+  font-weight:100;
+  margin-bottom:10;
+}
+.left h3 { 
+  font-size:20px; 
+  font-weight:100;
+  margin-bottom:10;
+}

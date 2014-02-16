@@ -1,0 +1,58 @@
+ <!doctype html>
+<html>
+
+<!-- Written by Sean Luke, January 2014
+		Chess Elo rating winning probability -->
+
+<head>
+<meta charset="UTF-8">
+<title>Chess Winning Probability</title>
+
+<!-- Browser tab icon of the rook chess piece -->
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<link href="stylesheet.css" type="text/css"
+	rel="stylesheet" />
+<script type="text/javascript" src="chess.js">
+</script>
+</head>
+
+<body>
+
+<h1>Chess Winning Probability</h1>
+
+<p>
+  <label for="yourRating">Your Rating </label>
+  <input type="text" id="yourRating" size="5" />
+</p>
+
+<p>
+  <label for="opponentRating">Opponents Rating </label>
+  <input type="text" id="opponentRating" size="5" />
+</p>
+
+<p>
+  <label for="confidence">Confidence level </label>
+  <select id="confidence">
+    <option value="low">Not So High</option>
+    <option value="lucky">I'm Feeling Lucky</option>
+    <option value="unstoppable">I'm Unstoppable!</option>
+  </select>
+</p>
+
+<p>
+  <input type="button" value="Calculate Odds" id="calc-button" />
+  <input type="button" value="Reset" id="resetButton" />
+</p>
+
+
+<p id="result"></p>
+
+<div class="left">
+	<h2>Sean Luke</h2>
+	<h3>Chess enthusiast</h3>
+</div>
+
+
+</body>
+</html>
