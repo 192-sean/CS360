@@ -1,0 +1,12 @@
+.square {
+	text-align: center;
+	/*background-image: url("dirt.png");*/
+}
+
+body {
+	background: #00BFFF;
+}
+
+* {
+	box-sizing: border-box;
+}
